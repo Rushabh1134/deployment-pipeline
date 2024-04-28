@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::deployment-pipeline-output/*" // replace with your bucket arn here
+        },
+        {
+            "Sid": "AllowWebAccess",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::deployment-pipeline-output/*" // replace with your bucket arn here
+        }
+    ]
+}
