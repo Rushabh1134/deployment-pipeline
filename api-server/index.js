@@ -98,6 +98,8 @@ async function initRedisSubscribe() {
   console.log("Subscribed to logs");
 }
 
+initRedisSubscribe();
+
 app.listen(PORT, () => {
   console.log(`Server is running on PORT ${PORT}`);
 });
