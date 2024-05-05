@@ -12,9 +12,10 @@
     "@aws-sdk/client-ecs": "^3.567.0",
     "aws-sdk": "^2.1611.0",
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "ioredis": "^5.4.1",
-    "mine-type": "^1.0.0",
+    "mime-types": "^2.1.35",
     "random-word-slugs": "^0.1.7",
-    "socketio": "^1.0.0"
+    "socket.io": "^4.7.5"
   }
 }

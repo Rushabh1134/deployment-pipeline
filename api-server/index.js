@@ -3,7 +3,7 @@ const { generateSlug } = require("random-word-slugs");
 const { ECSClient, RunTaskCommand } = require("@aws-sdk/client-ecs");
 require("dotenv").config();
 const { Server } = require("socket.io");
-const Redis = require(ioredis);
+const Redis = require("ioredis");
 
 const app = express();
 
